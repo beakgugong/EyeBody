@@ -145,6 +145,20 @@ body {
     text-align: center;
     color: #35465d;
 }
+.my-record{
+    font-family: NanumSquareR;
+    font-size: 29.5px
+    line-height: 1.71;
+    text-align: center;
+    color: #738000d;
+}
+.my-record:hover{
+    font-family: NanumSquareR;
+    font-size: 29.5px
+    line-height: 1.71;
+    text-align: center;
+    color: #fffff;
+}
 @media screen and (max-width:600px){
     html{
         font-size: 10px;
@@ -152,4 +166,7 @@ body {
     navbar-brand{
         font-size: 2rem;
     }
+}
+.eye-body-icon {
+    width:8%;
 }
