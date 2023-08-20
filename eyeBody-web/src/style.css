@@ -121,3 +121,12 @@ body {
     margin: auto;
 
     }
+.nav-distance {
+    padding: 2.1% 7.7%;
+}
+.navbar-brand {
+    font-family: NanumSquareR;
+    line-height: 1.68;
+    text-align: left;
+    color: #FFFFFF;
+}
