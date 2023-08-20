@@ -130,3 +130,26 @@ body {
     text-align: left;
     color: #FFFFFF;
 }
+.section{
+    margin-top:80px;
+}
+.title{
+    font-family: NanumSquareR;
+    line-height: 1.67;
+    text-align: center;
+    color: #35465d;
+}
+.subtitle{
+    font-family: NanumSquareR;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+}
+@media screen and (max-width:600px){
+    html{
+        font-size: 10px;
+    }
+    navbar-brand{
+        font-size: 2rem;
+    }
+}
