@@ -1,40 +1,13 @@
 body {
   font-family: sans-serif;
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 
 .file-upload {
-  background-color: #ffffff;
-  width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.file-upload-btn {
-  width: 100%;
-  margin: 0;
-  color: #fff;
-  background: #1FB264;
-  border: none;
-  padding: 10px;
-  border-radius: 4px;
-  border-bottom: 4px solid #15824B;
-  transition: all .2s ease;
-  outline: none;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.file-upload-btn:hover {
-  background: #1AA059;
-  color: #ffffff;
-  transition: all .2s ease;
-  cursor: pointer;
-}
-
-.file-upload-btn:active {
-  border: 0;
-  transition: all .2s ease;
+  background-color: #f6f7fa;
+  border: solid 1.5px #f6f7fa;
+  border-radius:10px;
+  padding: 10% 3%;
 }
 
 .file-upload-content {
@@ -54,15 +27,20 @@ body {
 }
 
 .image-upload-wrap {
-  margin-top: 20px;
-  border: 4px dashed #1FB264;
+  width: 57%;
+  margin:0 auto;
+  object-fit: contain;
+  border-radius:10px;
+  background-color: #ffffff;
+  border: 1.5px dashed #35465d;
   position: relative;
 }
 
+
 .image-dropping,
 .image-upload-wrap:hover {
-  background-color: #1FB264;
-  border: 4px dashed #ffffff;
+  background-color: #35465d;
+  border: 1.5px dashed #ffffff;
 }
 
 .image-title-wrap {
@@ -75,10 +53,12 @@ body {
 }
 
 .drag-text h3 {
+  font-size: 1.5rem;
   font-weight: 100;
   text-transform: uppercase;
   color: #15824B;
   padding: 60px 0;
+  margin: 0 auto;
 }
 
 .file-upload-image {
@@ -121,14 +101,13 @@ body {
     margin: auto;
 
     }
-.nav-distance {
+.nav-distance{
     padding: 2.1% 7.7%;
 }
 .navbar-brand {
     font-family: NanumSquareR;
-    line-height: 1.68;
     text-align: left;
-    color: #FFFFFF;
+    color: #15824B;
 }
 .section{
     margin-top:80px;
