@@ -36,7 +36,7 @@
         <div class="file-upload-content">
             <img class="file-upload-image" id='face-image' src="#" alt="your image" />
             <div class="result">
-                <h3>your body fat...</h3>
+                <h3>Result</h3>
                 <div id="label-container"></div>
             </div>
             <div class="image-title-wrap">
@@ -106,11 +106,9 @@
             const prediction = await model.predict(image, false);
             prediction.sort((a,b)=> parseFloat(b.probability)-parseFloat(a.probability));
             console.log(prediction);
-            for (let i = 0; i < maxPredictions; i++) {
-                const classPrediction =
-                    prediction[i].className + ": " + prediction[i].probability.toFixed(2)*100 +"%";
-                labelContainer.childNodes[i].innerHTML = classPrediction;
-            }
+            const classPrediction ="체지방률 : " + prediction[0].className;
+            labelContainer.childNodes[0].innerHTML = classPrediction;
+
         }
     </script>
 
