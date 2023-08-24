@@ -127,10 +127,15 @@ body {
 }
 .my-record{
     font-family: NanumSquareR;
-    font-size: 29.5px
+    font-size: 29.5px;
     line-height: 1.71;
     text-align: center;
     color: #738000d;
+}
+.record-history{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .my-record:hover{
     font-family: NanumSquareR;

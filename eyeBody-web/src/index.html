@@ -10,37 +10,37 @@
 </head>
 
 <body onload="init()">
-    <nav class="navbar sticky-top nav-distance" style="background-color: #35465d">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">EyeBody</a>
+<nav class="navbar sticky-top nav-distance" style="background-color: #35465d">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">EyeBody</a>
+    </div>
+</nav>
+<section class="section">
+    <h1 class="title">눈바디 테스트</h1>
+    <h2 class="subtitle">현재 몸상태를 간편하게 체크해보세요</h2>
+</section>
+<section class="history">
+    <div class=" container mt-5 record-history d-flex flex-row-reverse">
+        <a href="" class="my-record">눈바디 기록 보기</a>
+        <img src="image/image.jpeg" alt="" class="eye-body-icon">
+    </div>
+</section>
+<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<div class=" container file-upload">
+    <div class="image-upload-wrap" style="width:60%; margin: 0 auto;">
+        <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+        <div class="drag-text">
+            <h3>사진을 드래그하거나 빈칸을 눌러 업로드하세요</h3>
         </div>
-    </nav>
-    <section class="section">
-        <h1 class="title">눈바디 테스트</h1>
-        <h2 class="subtitle">현재 몸상태를 간편하게 체크해보세요</h2>
-    </section>
-    <section class="history">
-        <div class=" container mt-5 record-history d-flex flex-row-reverse">
-            <a href="" class="my-record">눈바디 기록 보기</a>
-            <img src="image/image.jpeg" alt="" class="eye-body-icon">
+    </div>
+    <div class="file-upload-content">
+        <img class="file-upload-image" id='face-image' src="#" alt="your image" />
+        <div class="result">
+            <h3>Result</h3>
+            <div id="label-container"></div>
         </div>
-    </section>
-    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <div class=" container file-upload">
-        <div class="image-upload-wrap" style="width:60%; margin: 0 auto;">
-            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
-            <div class="drag-text">
-                <h3>사진을 드래그하거나 빈칸을 눌러 업로드하세요</h3>
-            </div>
-        </div>
-        <div class="file-upload-content">
-            <img class="file-upload-image" id='face-image' src="#" alt="your image" />
-            <div class="result">
-                <h3>Result</h3>
-                <div id="label-container"></div>
-            </div>
-            <div class="image-title-wrap">
-                <button type="button" onclick="removeUpload()" class="remove-image">Remove Image
+        <div class="image-title-wrap">
+            <button type="button" onclick="removeUpload()" class="remove-image">Remove Image
             </button>
         </div>
     </div>
