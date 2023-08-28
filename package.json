@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cp -r src dist"
+    "build": "cp -r /eyeBody-web/src /dist"
   },
   "repository": {
     "type": "git",
