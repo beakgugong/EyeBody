@@ -105,7 +105,6 @@ body {
     padding: 2.1% 7.7%;
 }
 .navbar-brand {
-    font-size: 3rem;
     font-family: NanumSquareR;
     text-align: left;
     color: #15824B;
@@ -154,8 +153,4 @@ body {
 }
 .eye-body-icon {
     width:8%;
-}
-.sticky-top {
-  position: sticky;
-  top: 0;
 }
