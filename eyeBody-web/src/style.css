@@ -106,6 +106,7 @@ body {
 }
 .navbar-brand {
     font-family: NanumSquareR;
+    font-size: 3rem;
     text-align: left;
     color: #15824B;
 }
@@ -126,7 +127,7 @@ body {
 }
 .my-record{
     font-family: NanumSquareR;
-    font-size: 29.5px;
+    font-size: 2rem;
     line-height: 1.71;
     text-align: center;
     color: #738000d;
@@ -138,7 +139,7 @@ body {
 }
 .my-record:hover{
     font-family: NanumSquareR;
-    font-size: 29.5px
+    font-size: 2rem;
     line-height: 1.71;
     text-align: center;
     color: #fffff;
