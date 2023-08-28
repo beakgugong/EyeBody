@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "cp -r src dist"
   },
   "repository": {
     "type": "git",
