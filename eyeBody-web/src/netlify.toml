@@ -1,9 +1,0 @@
-[build]
-    command = "npm run bulid"
-    publish = "/bulid"
-    base = "/"
-
-[[redirects]]
-    from = "/*"
-    to = "/eyeBody-web/src/index.html"
-    status = 200

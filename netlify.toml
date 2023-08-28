@@ -1,0 +1,3 @@
+[build]
+    command = "npm run bulid"
+    publish = "EyeBody/eyeBody-web/build"
